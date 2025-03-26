@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyODPFYR69t5IG+jxc4YFLES",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Allan-Ramos1993/Allan-Ramos1993/blob/main/Analise-Exploratoria-PRF\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3PKO46XK4lJu",
+        "outputId": "2a663b97-3b6a-4695-b95c-ca3a3402050d"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Reading package lists... Done\n",
+            "Building dependency tree... Done\n",
+            "Reading state information... Done\n",
+            "git is already the newest version (1:2.34.1-1ubuntu1.12).\n",
+            "0 upgraded, 0 newly installed, 0 to remove and 29 not upgraded.\n",
+            "/content/Analise-Exploratoria-PRF\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Instalar o Git (caso não esteja instalado no ambiente)\n",
+        "!apt-get install git\n",
+        "\n",
+        "!git config --global user.name \"Allan-Ramos1993\"\n",
+        "!git config --global user.email \"allan.cristianramos@gmail.com\"\n",
+        "\n",
+        "%cd Analise-Exploratoria-PRF\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "7fZ6DeWw7bj9"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
